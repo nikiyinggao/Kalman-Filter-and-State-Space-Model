@@ -11,7 +11,7 @@ import pandas as pd
 
 def rmat(nr,nc): return(np.matrix(np.random.rand(nr,nc)))
 
-def hey(s):
+def 上三角(s):
     from scipy.sparse import triu
     return np.matrix(triu(rmat(s,s)).toarray())
     
